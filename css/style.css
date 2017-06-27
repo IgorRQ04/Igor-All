@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #434244;
+	font-family: Tahoma;
+}
+
+header{
+	background: url(../images/fundo-slide.jpg);
+	position: center;
+	width: 100%;
+	height: 325px;
+}
+
+.logo img{
+	width: 585px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+section.redes{
+	margin: 30px auto;
+	width: 100%;
+	height: 40px;
+}
+
+.social{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 10px 0 10px 3px;
+	transition: all 0.4s ease-out;
+	border-radius: 50%;
+}
+
+.social:hover{
+	cursor: pointer;
+	transform: translateY(-5px);
+	box-shadow: 1px 10px 15px 0 rgba(50, 50, 50, 0.45);
+}
+
+.social#plus{
+	background-color: #fd4d3e;
+}
+.social#facebook{
+	background-color: #23589c;
+}
+.social#instagram{
+	background-color: #764438;
+}
+.social#twitter{
+	background-color: #00adf1;
+}
+.social#youtube{
+	background-color: #f61f24;
+}
+.social#skype{
+	background-color: #008bbd;
+}
+.social#snap{
+	background-color: #fffc00;
+}
+.social#spotify{
+	background-color: #00db55;
+}
+.social#deezer{
+	background-color: #1c1c1c;
+}
+.social#soundcloud{
+	background-color: #ff3700;
+}
+.social#vk{
+	background-color: #2e77a4;
+}
+.social#peggo{
+	background-color: #ca4223;
+}
+.social#flickr{
+	background-color: #dfe8eb;
+}
+.social#deviantart{
+	background-color: #00cd36;
+}
+.social#pinterest{
+	background-color: #ed1b22;
+}
+.social#pixabay{
+	background-color: #6ba72b;
+}
+.social#tumblr{
+	background-color: #1e5978;
+}
+.social#blogger{
+	background-color: #ffb551;
+}
+.social#wordpress{
+	background-color: #0077a0;
+}
+.social#whats{
+	background-color: #28d723;
+}
+.social#telegram{
+	background-color: #00acea;
+}
+.social#mindmeister{
+	background-color: #ffb7d0;
+}
+.social#trello{
+	background-color: #0089e9;
+}
+.social#moqups{
+	background-color: #0095de;
+}
+
+.icones{
+	margin: 0 auto;
+	padding: 10px;
+	width: 30px;
+}
+
+ul#navmenu{
+	width: 100%;
+	height: 46px;
+	background-color: #b7986d;
+	font-family: Tahoma;
+	list-style: none;
+	position: relative;
+}
+
+ul.sub1{
+}
+
+ul.sub2{
+}
+
+ul#navmenu li{
+	width: 150px;
+	text-align: center;
+	position: relative;
+	float: left;
+}
+
+ul#navmenu a{
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #b7986d;
+	color: #fff;
+}
+
+ul#navmenu .sub1 li{
+	float: none;
+}
+
+ul#navmenu .sub1 li a{
+}
+
+ul#navmenu .sub1 a{
+	margin-top: 1.5px;
+}
+
+ul#navmenu .sub2 a{
+	margin-left: 6.5px;
+}
+
+ul#navmenu li:hover > a{
+	background-color: #e9e9e9;
+	color: #373737;
+}
+
+ul#navmenu li:hover a:hover{
+	background-color: #e9e9e9;
+	color: #373737;
+}
+
+ul#navmenu ul.sub1{
+	display: none;
+	position: absolute;
+}
+
+ul#navmenu ul.sub2{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 145px;
+}
+
+ul#navmenu li:hover .sub1{
+	display: block;
+}
+
+ul#navmenu .sub1 li:hover .sub2{
+	display: block;
+}
+
+.darrow{
+	color: #e9e9e9;
+	font-size: 12pt;
+	position: absolute;
+	top: 15px;
+	right: 4px;
+}
+
+.rarrow{
+	color: #e9e9e9;
+	font-size: 18pt;
+	position: absolute;
+	top: 10px;
+	right: 4px;
+}
